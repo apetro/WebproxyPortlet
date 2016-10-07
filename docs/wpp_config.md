@@ -77,8 +77,8 @@ paramatizing interceptors are used on the location values.
 #### PortletPreferencesBasicAuthenticationPreInterceptor
 Authentication interceptor used to authentication to a proxied resource with global credentials used by all users.
 The credentials are defined by the following portlet preferences:
-  - PortletPreferencesBasicAuthenticationPreInterceptor.username
-  - PortletPreferencesBasicAuthenticationPreInterceptor.password
+  - org.jasig.portlet.proxy.service.web.interceptor.PortletPreferencesBasicAuthenticationPreInterceptor.username
+  - org.jasig.portlet.proxy.service.web.interceptor.PortletPreferencesBasicAuthenticationPreInterceptor.password
 
 #### ProxyCASAuthenticationPreInterceptor
 Authentication interceptor using Proxy CAS. The user attribute `casProxyTicket` must be set and the uPortal
